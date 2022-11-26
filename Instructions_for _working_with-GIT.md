@@ -1,9 +1,3 @@
-# Инструкция по работе с git
-* git init - инициализация локального репозитория
-* git status - получить информацию от GIT о его текущем состоянии
-* git add - добавить файлы к сдедующему коммиту
-* git commit - m 'message' - создание коммита
-* git log - вывод на экран истории всех коммитов с их хэш-кодами
-* git checkout - переход от одного коммита к другому
-* git checkout master - вернуться к актуальному состоянию и продолжить работу
-* git diff - увидеть разницу между текущим файлом и закоммиченным файлом
+## Смешанные команды
+* git commit -am 'Comment'  - объединяет комманды git add  и  git commit - m 'Comment'
+* git checkout -b 'New branch name' - объединяет комманды git branch 'New branch name' и git checkout 'New branch name'
